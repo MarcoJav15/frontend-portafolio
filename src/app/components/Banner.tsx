@@ -8,6 +8,7 @@ const Banner: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-12">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                        Hola 👋 soy <br />
                         Marco de León
                     </h1>
                     <div className="flex items-center space-x-2 p-2 rounded-lg">
@@ -20,7 +21,7 @@ const Banner: React.FC = () => {
                     </div>
                     <div>
                         <a href="#about-me" className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black">
-                            Mis redes
+                            Acerca de mi
                         </a>
                         <a href='/images/CV.pdf' download className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
                             Descargar CV

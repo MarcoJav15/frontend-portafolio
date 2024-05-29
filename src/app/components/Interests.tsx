@@ -18,7 +18,10 @@ const Interests: React.FC = () => {
         <h2 className="text-4xl font-bold mb-4">Mis Intereses</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {interests.map((interest) => (
-            <div key={interest.name} className="bg-slate-600 p-4 rounded flex flex-col items-center">
+            <div
+              key={interest.name}
+              className="bg-slate-600 p-4 rounded flex flex-col items-center transform transition-transform duration-300 hover:scale-105"
+            >
               <img
                 src={interest.image}
                 alt={interest.name}
