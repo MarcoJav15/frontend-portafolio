@@ -5,7 +5,7 @@ import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 const Banner: React.FC = () => {
     return (
         <section>
-            <div className="grid grid-cols-1 lg:grid-cols-12">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 p-4">
                 <div className="col-span-7 place-self-center text-center sm:text-left">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
                         Hola 👋 soy <br />
@@ -19,11 +19,11 @@ const Banner: React.FC = () => {
                         <FaPhoneAlt className="text-green-500" />
                         <span className="text-white">3576 4647</span><br />
                     </div>
-                    <div>
-                        <a href="#about-me" className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-white hover:bg-slate-200 text-black">
+                    <div className="flex flex-col sm:flex-row sm:space-x-4">
+                        <a href="#about-me" className="px-6 py-3 mb-3 sm:mb-0 w-full sm:w-auto rounded-full bg-white hover:bg-slate-200 text-black">
                             Acerca de mi
                         </a>
-                        <a href='/images/CV.pdf' download className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3">
+                        <a href='/images/CV.pdf' download className="px-6 py-3 w-full sm:w-auto rounded-full bg-transparent hover:bg-slate-800 text-white border border-white">
                             Descargar CV
                         </a>
                     </div>
