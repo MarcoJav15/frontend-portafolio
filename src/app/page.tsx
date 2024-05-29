@@ -8,7 +8,6 @@ import axios from "axios";
 import Interests from "./components/Interests";
 
 export default function Home() {
-  const response = axios.get(parsedEnv.NEXT_PUBLIC_API_URL + "/projects")
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <div className="container mt-24 mx-auto px-12 py-4">
