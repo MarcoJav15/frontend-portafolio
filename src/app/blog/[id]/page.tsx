@@ -17,6 +17,7 @@ interface Project {
 
 export default function UserProfile({ params }: Props) {
     const [project, setBlog] = useState<Project | null>(null);
+ 
 
     useEffect(() => {
         const fetchData = async () => {

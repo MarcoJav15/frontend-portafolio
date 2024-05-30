@@ -52,6 +52,8 @@ const About: React.FC = () => {
                                 Colegio Doctor Rodolfo Robles</li>
                             <li className="mb-1">2024 - Estudios en ingeniería en Sistemas <br />
                                Universidad Rafael Landivar </li>
+                            <li className="mb-1">Cursos de aprendizaje web<br />
+                               En web.dev (HTML, CSS, Resposive Design, Forms)</li>
                             
                         </ul>
                     </div>
