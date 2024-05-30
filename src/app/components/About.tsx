@@ -48,10 +48,11 @@ const About: React.FC = () => {
                     <div className="p-4 bg-gray-800 rounded-lg shadow-lg mt-4">
                         <h3 className="text-2xl font-semibold mb-2">Educación</h3>
                         <ul className="list-disc pl-5">
-                            <li className="mb-1">2018 - Bachiller en ciencias y letras</li>
-                            <li className="mb-1">Colegio Doctor Rodolfo Robles</li>
-                            <li className="mb-1">2024 - Estudios en ingeniería en Sistemas</li>
-                            <li className="mb-1">Universidad Rafael Landívar</li>
+                            <li className="mb-1">2018 - Bachiller en ciencias y letras <br />
+                                Colegio Doctor Rodolfo Robles</li>
+                            <li className="mb-1">2024 - Estudios en ingeniería en Sistemas <br />
+                               Universidad Rafael Landivar </li>
+                            
                         </ul>
                     </div>
                 );
@@ -64,6 +65,8 @@ const About: React.FC = () => {
                             en una variedad de lenguajes de programación, frameworks y herramientas.
                             También tengo fuertes habilidades blandas, incluyendo la comunicación,
                             el trabajo en equipo, la resolución de problemas y el aprendizaje.
+                            En el ámbito educativo tengo experiencia en practicas de laboratorio
+                            en redes, telecomunicaciones y evaluaciones de hardware.
                         </p>
                         <div className="flex justify-center">
                             <Image src="/images/me-v3.png" alt='about-image' width={200} height={200} className="rounded-lg max-w-full h-auto" />
